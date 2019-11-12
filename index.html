@@ -7,11 +7,6 @@
 
   <body>
     <!-- 
-
-  2. Wrap The text in the table of contents in an ordered list so that each main heading and it's sub headings are in the same list item
-
-  3. In each list item under the main heading text, add another **nested** ordered list so that each sub heading is wrapped in a list item
-
   4. For each of the list items in the table of contents, add an anchor link that wraps around the text. when the link is clicked, the page should scroll to that heading
 
   5. At the end of each section in the text, before the next sub heading, add a "Back to top" link, that scrolls the page back to the top 
@@ -22,19 +17,19 @@
     <h1 id="main-heading">Some kind of article</h1>
 
     <h2 id="table-of-content-heading">Table of contents</h2>
-    <!-- Add the TOC list here -->
     <ol>
       <li>
         <ol>
-          <li>First Heading Sub Heading 1.1</li>
-          <li>Sub Heading 1.1</li>
+          <li><a href="#first-article-heading">First Heading Sub Heading 1.1</li>
+          <li><a href="#first-article-sub-heading-one">Sub Heading 1.1</a></li>
+          <li><a href="#first-article-sub-heading-two">Sub Heading 1.2</a></li>
         </ol>
       </li>
       <li>
         <ol>
-          <li>Second Heading Sub Heading 2.1</li>
-          <li>Sub Heading 2.2</li>
-          <li>Sub Heading 2.3</li>
+          <li><a href="#second-article-heading">Second Heading Sub Heading 2.1</a></li>
+          <li><a href="#second-article-sub-heading-one">Sub Heading 2.2</a></li>
+          <li><a href="#second-article-sub-heading-two">Sub Heading 2.3</a></li>
         </ol>
       </li>
     </ol>
