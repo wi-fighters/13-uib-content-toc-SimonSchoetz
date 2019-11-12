@@ -15,3 +15,5 @@
 5. At the end of each section in the text, before the next sub heading, add a "Back to top" link, that scrolls the page back to the top.
 
 6. Change the nested list numbering to roman numerals.
+
+In case you lose the link: https://github.com/wi-fighters/13-uib-content-toc-SimonSchoetz
